@@ -1,10 +1,7 @@
-gcp_credentials = "tf-amit.json"
-gcp_project_id = "shoptrue-gke"
+gcp_credentials = "66-test.json"
+gcp_project_id = "noc-test-project"
 gcp_region = "us-central1"
-gke_zones = ["us-central1-a"]
-gke_regional = false
-gke_network = "default"
-gke_subnetwork = "default"
-gke_default_nodepool_name = "test2-pool"
-gke_service_account = "tf-test@shoptrue-gke.iam.gserviceaccount.com"
-gke_cluster_name = "gke-tf-poc-66"
+gcp_zones = ["us-central1-a"]
+gcp_network = "default"
+gcp_subnetwork = "default"
+gcp_service_account = "ttec-poc-test@noc-test-project.iam.gserviceaccount.com"
